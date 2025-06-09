@@ -8,6 +8,9 @@ This repository contains case studies from real-world manufacturing environments
 5. 1-Sample sign test
 6. 1-Sample Wilcoxon test
 
+
+            - Note: Non-parametric tests cannot be executed in Excel through straightforward functions. Hence, they require manual calculations within the Excel document
+   
 ---
 
 ## ⚽️ Non-parametric tests
@@ -63,6 +66,15 @@ The Freidman test is a form of non-parametric test that does not make any assump
 
 ### 🏏 Objectives
 
-1. Test whether two independent samples come from the same distribution (typically when normality can't be assumed) using Mann Whitney U test
-2. Test to compare three or more independent groups to assess whether their medians differ significantly using Kruskal-Wallis test (alternative to one-way ANOVA)
-3. 
+- Test whether two independent samples come from the same distribution (typically when normality can't be assumed) using Mann Whitney U test
+- Test to compare three or more independent groups to assess whether their medians differ significantly using Kruskal-Wallis test (alternative to one-way ANOVA)
+-  
+
+
+---
+
+### 🏸 Interpretation
+
+1. *Situation: The factory operates two machines to carry out Grinding operation. They want to compare the output Width by each machine to determine if the output is uniform to one another*
+
+   **Inference**: 
