@@ -59,4 +59,10 @@ The Freidman test is a form of non-parametric test that does not make any assump
 
 ---
 
-## 🏓 Case study: 
+## 🏓 Case study: Non-parametric testing of Grinding machine in a steel manufacturing plant
+
+### 🏏 Objectives
+
+1. Test whether two independent samples come from the same distribution (typically when normality can't be assumed) using Mann Whitney U test
+2. Test to compare three or more independent groups to assess whether their medians differ significantly using Kruskal-Wallis test (alternative to one-way ANOVA)
+3. 
