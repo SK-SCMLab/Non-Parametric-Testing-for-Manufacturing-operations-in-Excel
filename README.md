@@ -42,3 +42,21 @@ The Mood's Median test is a non-parametric test that is used to test the equalit
 
 ## 🎾 Freidman Test
 The Freidman test is a form of non-parametric test that does not make any assumptions on the origin of the sample 
+
+---
+
+## 🏉 1-Sample Sign Test
+1-Sample sign test is the simplest of all the non-parametric test that can be used instead of 1-sample test:
+
+- Count the no of +ve values
+- Count the no. of -ve values
+- Test the values
+
+---
+
+## 🥏 1-Sample Wilcoxon test
+1-Sample Wilcoxon test is a non-parametric test which is equivalent to 1-sample T.Test and is more powerful than 1-Sample Sign test. It is used to estimate the population median and compare it to target or reference value. It assumes the existing sample is randomly taken from a population
+
+---
+
+
