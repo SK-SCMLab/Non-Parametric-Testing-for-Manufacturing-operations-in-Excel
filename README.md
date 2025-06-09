@@ -6,6 +6,7 @@ This repository contains case studies from real-world manufacturing environments
 3. Mood's Median test
 4. Freidman Test
 5. 1-Sample sign test
+6. 1-Sample Wilcoxon test
 
 ---
 
