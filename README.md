@@ -9,7 +9,8 @@ This repository contains case studies from real-world manufacturing environments
 6. 1-Sample Wilcoxon test
 
 
-            - Note: Non-parametric tests cannot be executed in Excel through straightforward functions. Hence, they require manual calculations within the Excel document
+            Note: - Non-parametric tests cannot be executed in Excel through straightforward functions. Hence, they require manual calculations within the Excel document
+                  - For Mann-Whitney U test, users are supposed to refer to U-distribution table to determine the critical value 
    
 ---
 
