@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/59491206-afd8-46b6-8472-52f04aec9677)# 🪁 Non-Parametric-Testing-for-Manufacturing-operations-in-Excel
+# 🪁 Non-Parametric-Testing-for-Manufacturing-operations-in-Excel
 This repository contains case studies from real-world manufacturing environments, demonstrating how non-parametric tests can be carried out in manufacturing operations using Microsoft Excel including:
 
 1. Mann-Whitney U test
