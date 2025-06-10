@@ -78,10 +78,20 @@ The Freidman test is a form of non-parametric test that does not make any assump
 
 1. *Situation: The factory operates two machines to carry out Grinding operation. They want to compare the output Width by each machine to determine if the output is uniform to one another*
 
+               H₀: Median output widths of Machine A = Machine B
+               H₁: Median output widths are different
+
    **Inference**: *Mann Whitney U Test* || From the excel analysis, U = 3 < 10 (U_Critical), we can reject H₀. It means that the data is not normally distributed. It can be used instead of 2-sample T.Test if normality/variance assumptions are violated
 
    **Conclusion**: There is statistically significant evidence that Machine A and Machine B of Grinding operation have different median output widths. Since A has lower output width comparatively in all ranks, it's likely more efficient
 
 2. *Situation: The manufacturing plant uses three different suppliers for steel raw materials: Supplier A, Supplier B, and Supplier C. The Procurement Manager wants to determine if material hardness differs significantly across these suppliers*
 
-   **Inference**: *Kruskal-Wallis Test* || 
+               H₀: The raw material hardness of all the suppliers are equal
+               H₁: At least one supplier's raw material hardness is different
+
+   **Inference**: *Kruskal-Wallis Test* || From the excel analysis, H = 71.98 > 5.99 (H-critical), we can reject H₀. It means that at least one supplier's material hardness differs meaningfully from the others
+
+   **Conclusion**: There is a statistically significant difference between the medians of at least one pair of groups
+
+4. *Situation: 
