@@ -82,4 +82,6 @@ The Freidman test is a form of non-parametric test that does not make any assump
 
    **Conclusion**: There is statistically significant evidence that Machine A and Machine B of Grinding operation have different median output widths. Since A has lower output width comparatively in all ranks, it's likely more efficient
 
+2. *Situation: The manufacturing plant uses three different suppliers for steel raw materials: Supplier A, Supplier B, and Supplier C. The Procurement Manager wants to determine if material hardness differs significantly across these suppliers*
 
+   **Inference**: *Kruskal-Wallis Test* || 
