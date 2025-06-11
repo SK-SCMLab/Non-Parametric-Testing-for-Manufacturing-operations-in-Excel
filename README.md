@@ -125,3 +125,45 @@ The Freidman test is a form of non-parametric test that does not make any assump
 
                 H₀: Median MaxThickness = 0.756 mm
                 H₁: Median MaxThickness ≠ 0.756 mm
+
+      **Inference**: *1-Sample Wilcoxon Test* || From the excel analysis p-value = 0.0021 < 0.05, we can reject H₀. It means that the grinding tool's output significantly differs from 0.756 mm
+
+---
+
+## 🎣 Repository structure
+CharacteristicValue4_dataset.xlsx
+            - Analysis
+
+---
+
+## 🥊 Excel functionalities used
+- IF()
+- IFS()
+- COUNTIF()
+- COUNTIFS()
+- MIN()
+- ABS()
+- SUMIF()
+- RANK.AVG()
+- RANK.EQ()
+- CHISQ.TEST()
+- BINOM.DIST()
+- MEDIAN()
+- COUNTA()
+- UNIQUE()
+- PIVOT TABLES
+- RAND()
+- RANDBETWEEN()
+- SIGN()
+- ROWS()
+
+---
+
+## 🥋 Requirements
+
+- Microsoft Excel 2016 or later
+- Business Statistics, Six Sigma, Matrices, Probability
+
+---
+
+*"The goal is to turn data into information, and information into insight" - Carly Fiorina*
