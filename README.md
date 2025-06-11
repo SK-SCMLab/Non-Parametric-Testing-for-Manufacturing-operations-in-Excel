@@ -104,4 +104,4 @@ The Freidman test is a form of non-parametric test that does not make any assump
 
     **Conclusion**: There is no statistically significant difference among the medians of all the three grinding resources
 
-4. *Situation: 
+4. *Situation: The manufacturing plant operates three resources (A, B, C) in grinding line and wants to evaluate whether machine type affects the productivity (units/hour) of operators. Each operator works on all three machines*
