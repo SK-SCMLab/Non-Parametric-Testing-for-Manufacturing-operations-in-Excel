@@ -103,4 +103,4 @@ The Freidman test is a form of non-parametric test that does not make any assump
 
     **Conclusion**: There is no statistically significant difference among the medians of all the three grinding resources
 
-5. 
+5. *Situation: 
