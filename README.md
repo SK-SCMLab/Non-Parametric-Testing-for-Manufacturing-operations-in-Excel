@@ -91,7 +91,7 @@ The Freidman test is a form of non-parametric test that does not make any assump
                H₀: The raw material hardness of all the suppliers are equal
                H₁: At least one supplier's raw material hardness is different
 
-   **Inference**: *Kruskal-Wallis Test* || From the excel analysis, H = 71.98 > 5.99 (H-critical), we can reject H₀. It means that at least one supplier's material hardness differs meaningfully from the others
+   **Inference**: *Kruskal-Wallis Test* || From the excel analysis, χ² (H_statistic) = 71.98 > 5.99 (H-critical), we can reject H₀. It means that at least one supplier's material hardness differs meaningfully from the others
 
    **Conclusion**: There is a statistically significant difference between the medians of at least one pair of groups
 
@@ -105,3 +105,12 @@ The Freidman test is a form of non-parametric test that does not make any assump
     **Conclusion**: There is no statistically significant difference among the medians of all the three grinding resources
 
 4. *Situation: The manufacturing plant operates three resources (A, B, C) in grinding line and wants to evaluate whether machine type affects the productivity (units/hour) of operators. Each operator works on all three machines*
+
+                H₀: All the operators' productivity remains the same across the machines
+                H₁: At least one operator's productivity is different across at least one machine
+
+     **Inference**: *Friedman test* || From the excel analysis, χ² (F-statistic) = 1105 > 5.99 (F_Critical), we can reject H₀. It means that at least one operator's productivity differs meaningfully from the others
+
+     **Conclusion**: There is a statistically significant difference between the productivity of at least one operator
+
+5. *Situation: 
