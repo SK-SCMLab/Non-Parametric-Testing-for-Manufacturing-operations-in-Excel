@@ -72,7 +72,7 @@ The Freidman test is a form of non-parametric test that does not make any assump
 - Test to determine whether the medians of two or more independent samples are significantly different
 - To detect differences in treatments across multiple test attempts when the same subjects are exposed to three or more conditions
 - To test whether the median of a population differs from a specified value
-
+- To determine whether the median of a population differs significantly from a hypothesized value, considering not just the direction of difference but also its magnitude
 
 ---
 
@@ -116,9 +116,12 @@ The Freidman test is a form of non-parametric test that does not make any assump
 
 5. *Situation: The grinding machine that is expected to produce 45 units/hour. The planning manager collected 17 hourly observations and want to know if the machine underperforms or performs consistently*
 
-                H₀: Median = 45
-                Hₐ: Median ≠ 45
+                H₀: Median produce = 45
+                Hₐ: Median produce ≠ 45
 
       **Inference**: *1-Sample sign test* || From the excel analysis, p-value = 0.332 > 0.05, we fail to reject H₀. It means that grinding machine is producing around the target median value (45)
 
-6. *Situation: 
+6. *Situation: The manufacturing plant wants to validate whether a grinding machine produces maximum sheet thicknesses the differ from the target thickness of 0.756 mm
+
+                H₀: Median MaxThickness = 0.756 mm
+                H₁: Median MaxThickness ≠ 0.756 mm
