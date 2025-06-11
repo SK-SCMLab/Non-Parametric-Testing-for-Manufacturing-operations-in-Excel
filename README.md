@@ -71,6 +71,7 @@ The Freidman test is a form of non-parametric test that does not make any assump
 - Test to compare three or more independent groups to assess whether their medians differ significantly using Kruskal-Wallis test (alternative to one-way ANOVA)
 - Test to determine whether the medians of two or more independent samples are significantly different
 - To detect differences in treatments across multiple test attempts when the same subjects are exposed to three or more conditions
+- To test whether the median of a population differs from a specified value
 
 
 ---
@@ -113,4 +114,11 @@ The Freidman test is a form of non-parametric test that does not make any assump
 
      **Conclusion**: There is a statistically significant difference between the productivity of at least one operator
 
-5. *Situation: 
+5. *Situation: The grinding machine that is expected to produce 45 units/hour. The planning manager collected 17 hourly observations and want to know if the machine underperforms or performs consistently*
+
+                H₀: Median = 45
+                Hₐ: Median ≠ 45
+
+      **Inference**: *1-Sample sign test* || From the excel analysis, p-value = 0.332 > 0.05, we fail to reject H₀. It means that grinding machine is producing around the target median value (45)
+
+6. *Situation: 
