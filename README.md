@@ -44,7 +44,7 @@ The Mood's Median test is a non-parametric test that is used to test the equalit
 
 ---
 
-## 🎾 Freidman Test
+## 🎾 Friedman Test
 The Freidman test is a form of non-parametric test that does not make any assumptions on the origin of the sample 
 
 ---
