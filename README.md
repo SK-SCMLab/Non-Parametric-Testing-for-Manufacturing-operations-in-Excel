@@ -100,7 +100,7 @@ The Freidman test is a form of non-parametric test that does not make any assump
                 H₀: All the grinding resources maintain equal median cycle time
                 H₁: At least one grinding resource cycle time median is different
 
-    **Inference**: *Mood's Median Test* || From the excel analysis, χ² = 0.036 < 5.99 (χ²_Critical), we fail to reject H₀. It means all the grinding resources maintain equal median cycle time
+    **Inference**: *Mood's Median Test* || From the excel analysis, χ² = 0.16 < 5.99 (χ²_Critical), we fail to reject H₀. It means all the grinding resources maintain equal median cycle time
 
     **Conclusion**: There is no statistically significant difference among the medians of all the three grinding resources
 
