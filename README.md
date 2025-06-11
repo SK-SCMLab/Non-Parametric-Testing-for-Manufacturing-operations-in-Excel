@@ -70,6 +70,7 @@ The Freidman test is a form of non-parametric test that does not make any assump
 - Test whether two independent samples come from the same distribution (typically when normality can't be assumed) using Mann Whitney U test
 - Test to compare three or more independent groups to assess whether their medians differ significantly using Kruskal-Wallis test (alternative to one-way ANOVA)
 - Test to determine whether the medians of two or more independent samples are significantly different
+- To detect differences in treatments across multiple test attempts when the same subjects are exposed to three or more conditions
 
 
 ---
@@ -94,7 +95,7 @@ The Freidman test is a form of non-parametric test that does not make any assump
 
    **Conclusion**: There is a statistically significant difference between the medians of at least one pair of groups
 
-4. *Situation: The manufacturing plant operates three resources (A, B, C) in grinding line and want to test if the median cycle time differs significantly between them*
+3. *Situation: The manufacturing plant operates three resources (A, B, C) in grinding line and want to test if the median cycle time differs significantly between them*
 
                 H₀: All the grinding resources maintain equal median cycle time
                 H₁: At least one grinding resource cycle time median is different
@@ -103,4 +104,4 @@ The Freidman test is a form of non-parametric test that does not make any assump
 
     **Conclusion**: There is no statistically significant difference among the medians of all the three grinding resources
 
-5. *Situation: 
+4. *Situation: 
